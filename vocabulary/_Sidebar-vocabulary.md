@@ -1,19 +1,24 @@
 #  Menu
 
-## Use cases
+## Casos de Uso
 * [Use case 1](#)
 
-## Steps
+## Requisitos
 * [Competition questions](#)
 
 ***
 
-# Second item
+# Implementación
 
-* [Conceptual model](#)
-* [Ontology (OWL)](#)
+* [Modelo Conceptual](#)
+* [Ontología (OWL)](#)
 
 ***
 
-# Glossary of terms
-* [Glossary of Terms](#)
+# Glosario de Términos
+* [Glosario de Términos](#)
+
+***
+
+# Mantenimiento
+* [Gestión de Issues](#)
