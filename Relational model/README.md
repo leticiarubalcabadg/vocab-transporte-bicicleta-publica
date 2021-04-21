@@ -18,7 +18,14 @@
     - [BICI_BICICLETA](#id9) 
     - [BICI_USUARIO](#id10)  
     - [BICI_TRAYECTO](#id11) 
-    - [BICI_PUNTO_PASO](#id12)  
+    - [BICI_PUNTO_PASO](#id12)
+5. [TAXONOMÍAS SKOS](#id13)
+   - [TIPO-MODELO-BICICLETA](#id14)
+   - [TIPO-ESTADO-ANCLAJE](#id15)
+   - [TIPO-ESTADO-ESTACION](#id16)
+   - [TIPO-ESTADO-BICICLETA](#id17)
+   - [TIPO-EQUIPAMIENTO](#id18)
+
 
 
 
@@ -194,6 +201,64 @@ En principio se considera esta estructura de datos bastante estable y no se esti
 
 
 &nbsp;
+
+
+
+## TAXONOMÍAS SKOS <a name="id13"></a>
+
+### TIPO-MODELO-BICICLETA <a name="id14"></a>
+http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta
+Tesauro que recoge los tipos de modelo de una bicicleta pública.
+
+
+|     Término      |     Label                                 |
+|------------------|-------------------------------------------|
+|     electrica    |     La bicicleta es de tipo eléctrica.    |
+|     mecanica     |     La bicicleta es de tipo mecánica.     |
+
+ ### TIPO-ESTADO-ANCLAJE <a name="id15"></a>
+ http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje
+Tesauro que recoge los tipos de un anclaje de una estación de bicicleta pública.
+|     Término      |     Label                                                              |
+|------------------|------------------------------------------------------------------------|
+|     inactivo     |     El anclaje no está disponible.                                     |
+|     libre        |     El anclaje está activo y no está ocupado por ninguna bicicleta.    |
+|     ocupado      |     El anclaje está activo y ocupado por una bicicleta.                |
+|     reservado    |     El anclaje está activo y está reservado por un usuario.            |
+ 
+ 
+ 
+ ### TIPO-ESTADO-ESTACION <a name="id16"></a>
+ http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion
+Tesauro que recoge los tipos de estado de una estación de bicicleta pública.
+|     Término         |     Label                                     |
+|---------------------|-----------------------------------------------|
+|     no-operativa    |     La estación no está en funcionamiento.    |
+|     opertiva        |     La estación está en funcionamiento.       |
+
+
+ 
+ ### TIPO-ESTADO-BICICLETA <a name="id17"></a>
+ http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta
+Tesauro que recoge los tipos de estado de una bicicleta pública.
+|     Término          |     Label                                                                                      |
+|----------------------|------------------------------------------------------------------------------------------------|
+|     abandonada       |     La bicicleta bien ha sido sustraída o abandonada por un   usuario y no está localizada.    |
+|     disponible       |     La bicicleta no está siendo usada por ningún usuario.                                      |
+|     en-reparacion    |     La bicicleta no está disponible, está siendo reparada.                                     |
+|     en-reserva       |     La bicicleta está preparada para entrar en el sistema, pero   aún no forma parte de él.    |
+|     excluida         |     La bicicleta ha dejado de ser parte del sistema.                                           |
+|     ocupada          |     La bicicleta está siendo usada por un usuario.                                             |
+
+ 
+ ### TIPO-EQUIPAMIENTO <a name="id18"></a>
+http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento
+Tesauro para tipos de equipamientos municipales.
+
+
+
+
+
 
 
 <p float="right" align="center">
