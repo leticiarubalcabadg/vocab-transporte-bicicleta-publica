@@ -205,9 +205,11 @@ En principio se considera esta estructura de datos bastante estable y no se esti
 
 
 ## TAXONOMÍAS SKOS <a name="id13"></a>
+&nbsp;
 
 ### TIPO-MODELO-BICICLETA <a name="id14"></a>
 http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta
+&nbsp;
 Tesauro que recoge los tipos de modelo de una bicicleta pública.
 
 
@@ -215,9 +217,11 @@ Tesauro que recoge los tipos de modelo de una bicicleta pública.
 |------------------|-------------------------------------------|
 |     electrica    |     La bicicleta es de tipo eléctrica.    |
 |     mecanica     |     La bicicleta es de tipo mecánica.     |
+&nbsp;
 
  ### TIPO-ESTADO-ANCLAJE <a name="id15"></a>
  http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje
+ &nbsp;
 Tesauro que recoge los tipos de un anclaje de una estación de bicicleta pública.
 |     Término      |     Label                                                              |
 |------------------|------------------------------------------------------------------------|
@@ -225,21 +229,25 @@ Tesauro que recoge los tipos de un anclaje de una estación de bicicleta públic
 |     libre        |     El anclaje está activo y no está ocupado por ninguna bicicleta.    |
 |     ocupado      |     El anclaje está activo y ocupado por una bicicleta.                |
 |     reservado    |     El anclaje está activo y está reservado por un usuario.            |
+&nbsp;
  
  
  
  ### TIPO-ESTADO-ESTACION <a name="id16"></a>
  http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion
+ &nbsp;
 Tesauro que recoge los tipos de estado de una estación de bicicleta pública.
 |     Término         |     Label                                     |
 |---------------------|-----------------------------------------------|
 |     no-operativa    |     La estación no está en funcionamiento.    |
 |     opertiva        |     La estación está en funcionamiento.       |
+&nbsp;
 
 
  
  ### TIPO-ESTADO-BICICLETA <a name="id17"></a>
  http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta
+ &nbsp;
 Tesauro que recoge los tipos de estado de una bicicleta pública.
 |     Término          |     Label                                                                                      |
 |----------------------|------------------------------------------------------------------------------------------------|
@@ -249,6 +257,7 @@ Tesauro que recoge los tipos de estado de una bicicleta pública.
 |     en-reserva       |     La bicicleta está preparada para entrar en el sistema, pero   aún no forma parte de él.    |
 |     excluida         |     La bicicleta ha dejado de ser parte del sistema.                                           |
 |     ocupada          |     La bicicleta está siendo usada por un usuario.                                             |
+&nbsp;
 
  
  ### TIPO-EQUIPAMIENTO <a name="id18"></a>
@@ -256,7 +265,7 @@ http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipami
 Tesauro para tipos de equipamientos municipales.
 
 
-
+&nbsp;
 
 
 
